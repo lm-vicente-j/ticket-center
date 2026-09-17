@@ -1,0 +1,30 @@
+name: Tarea
+description: Trabajo de implementación con un resultado verificable
+title: "[tarea]: "
+labels: ["tarea"]
+body:
+  - type: textarea
+    id: resultado
+    attributes:
+      label: Resultado esperado
+      description: Qué debe existir y funcionar cuando esto esté terminado.
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptación
+      value: |
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
+
+  - type: input
+    id: referencia
+    attributes:
+      label: Diseño de referencia
+      description: Sección de ARCHITECTURE.md o issue de diseño. Enlázalo, no lo repitas.
+    validations:
+      required: false

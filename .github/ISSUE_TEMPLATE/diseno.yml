@@ -1,0 +1,31 @@
+name: Diseño
+description: Discusión que debe terminar en una decisión escrita
+title: "[diseño]: "
+labels: ["diseño"]
+body:
+  - type: textarea
+    id: pregunta
+    attributes:
+      label: Pregunta a resolver
+      description: Una sola pregunta, con el contexto necesario para opinar.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: Alternativas
+      description: Al menos dos, cada una con su costo o consecuencia.
+      value: |
+        1. 
+        2. 
+    validations:
+      required: true
+
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decisión
+      description: Se llena al cerrar. Qué se eligió y por qué.
+    validations:
+      required: false
