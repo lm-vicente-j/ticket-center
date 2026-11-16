@@ -9,6 +9,9 @@ y este proyecto se adhiere al [Versionado Semántico](https://semver.org/lang/es
 
 ### Añadido
 
+- Definición de C# con .NET 10 LTS para v1. Servidor y cliente separados.
+  Todos los clientes apuntarán al servidor. La base de datos se ejecutará
+  en el equipo del servidor.
 - Documento de alcance inicial (`SCOPE.md`) con usuarios, alcance de v1,
   pantallas y flujos principales.
 - Documento de arquitectura (`ARCHITECTURE.md`) con visión general
@@ -19,6 +22,9 @@ y este proyecto se adhiere al [Versionado Semántico](https://semver.org/lang/es
 
 ### Cambiado
 
+- `README.md`: se agregan descripción, estado, funciones previstas y usuarios.
+  Se documentan las dependencias, la instalación pendiente y el uso previsto.
+  Se enlazan los documentos del proyecto.
 - `SCOPE.md`: se separan los roles de Supervisor y Administrador, y se agrega la exportación del reporte a archivo dentro del alcance de v1.
 - Los comentarios solo se pueden escribir mientras el ticket está en proceso.
 

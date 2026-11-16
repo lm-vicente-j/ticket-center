@@ -54,6 +54,12 @@ Dependencias prohibidas:
  - Lenguaje, framework y tipo de cliente (escritorio o web): pendiente de
    decisión.
 
+### Flujo general
+
+El servidor y el cliente serán aplicaciones separadas.
+Todos los clientes apuntarán a la dirección del servidor.
+La base de datos se ejecutará en el equipo del servidor.
+
 ## 5. Modelo de datos
 
 Entidades principales. El esquema exacto vive en las migraciones.
